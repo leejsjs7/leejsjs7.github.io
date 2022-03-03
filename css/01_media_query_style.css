@@ -1,0 +1,20 @@
+
+/* landscape 가로모드 */
+@media (orientation: landscape){
+  h1{
+    color : green:
+  }
+}
+/* 세로모드 */
+@media (orientation: portrait){
+  h1{
+    color:red
+  }
+}
+/* Medai type : all print screen speech  */
+@media only print {
+  *{
+    color : black !important;
+  }
+}
+
